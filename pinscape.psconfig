@@ -1,0 +1,588 @@
+# Pinscape Controller configuration
+# CPU ID 0050-00417018-62884E45, OpenSDA ID 81E7-3765081B-F4C0E678
+# samedi 7 décembre 2024 16:43:53
+# Note: this is an in-memory working configuration
+
+# 1 = USBID:{vendor:4617,product:60138}
+1: 9 18 234 234 0 0
+# 2 = pinscapeID:1
+2: 1 0 0 0 0 0
+# 3 = joystick:{enabled:1,axisFormat:0,reportInterval:0x208D}
+3: 1 0 141 32 0 0
+# 4 = accelerometer:{orientation:3,dynamicRange:1,autoCenterMode:0,stutter:1,velocityScalingFactor:0}
+4: 3 1 0 1 0 0
+# 5 = plungerType:{type:5,param1:0}
+5: 5 0 0 0 0 0
+# 6 = plungerPins:{a:"PTB0",b:"NC",c:"NC",d:"NC"}
+6: 32 255 255 255 0 0
+# 7 = calButtonPins:{enabled:3,button:"PTC12",led:"PTC13"}
+7: 3 76 77 0 0 0
+# 8 = ZBLaunchBall:{port:1,keytype:2,keycode:40,pushDistance:63}
+8: 1 2 40 63 0 0
+# 9 = TVon:{statusPin:"NC",latchPin:"NC",relayPin:"NC",delay:0}
+9: 255 255 255 0 0 0
+# 10 = TLC5940:{nchips:0,SIN:"PTC6",SCLK:"PTC5",XLAT:"PTC10",BLANK:"PTC11",GSCLK:"PTA13"}
+10: 0 70 69 74 75 13
+# 11 = HC595:{nchips:0,SIN:"NC",SCLK:"NC",LATCH:"NC",ENA:"NC"}
+11: 0 255 255 255 255 0
+# 12 = disconnectRebootTime:10
+12: 10 0 0 0 0 0
+# 14 = expansionBoards:{type:5,version:0,ext0:1,ext1:0,ext2:0,ext3:0}
+14: 5 0 1 0 0 0
+# 15 = nightMode:{button:0,flags:0,output:0}
+15: 0 0 0 0 0 0
+# 16 = shiftButton:{index:0,mode:0}
+16: 0 0 0 0 0 0
+# 17 = IRRemote:{sensorPin:"NC",ledPin:"NC"}
+17: 255 255 0 0 0 0
+# 18 = plungerAutoZero:{flags:0,time:0}
+18: 0 0 0 0 0 0
+# 21 = TLC59116:{chipMask:0,SDA:"NC",SCL:"NC",RESET:"NC"}
+21: 0 0 255 255 255 0
+# 23 = gpioPwmFreq:0
+23: 0 0 0 0 0 0
+# 250[1] = IRCode3[1]:{codeHi:0x0}
+250[1]: 0 0 0 0 0
+# 250[2] = IRCode3[2]:{codeHi:0x0}
+250[2]: 0 0 0 0 0
+# 250[3] = IRCode3[3]:{codeHi:0x0}
+250[3]: 0 0 0 0 0
+# 250[4] = IRCode3[4]:{codeHi:0x0}
+250[4]: 0 0 0 0 0
+# 250[5] = IRCode3[5]:{codeHi:0x0}
+250[5]: 0 0 0 0 0
+# 250[6] = IRCode3[6]:{codeHi:0x0}
+250[6]: 0 0 0 0 0
+# 250[7] = IRCode3[7]:{codeHi:0x0}
+250[7]: 0 0 0 0 0
+# 250[8] = IRCode3[8]:{codeHi:0x0}
+250[8]: 0 0 0 0 0
+# 250[9] = IRCode3[9]:{codeHi:0x0}
+250[9]: 0 0 0 0 0
+# 250[10] = IRCode3[10]:{codeHi:0x0}
+250[10]: 0 0 0 0 0
+# 250[11] = IRCode3[11]:{codeHi:0x0}
+250[11]: 0 0 0 0 0
+# 250[12] = IRCode3[12]:{codeHi:0x0}
+250[12]: 0 0 0 0 0
+# 250[13] = IRCode3[13]:{codeHi:0x0}
+250[13]: 0 0 0 0 0
+# 250[14] = IRCode3[14]:{codeHi:0x0}
+250[14]: 0 0 0 0 0
+# 250[15] = IRCode3[15]:{codeHi:0x0}
+250[15]: 0 0 0 0 0
+# 250[16] = IRCode3[16]:{codeHi:0x0}
+250[16]: 0 0 0 0 0
+# 251[1] = IRCode2[1]:{protocol:0,codeLo:0x0}
+251[1]: 0 0 0 0 0
+# 251[2] = IRCode2[2]:{protocol:0,codeLo:0x0}
+251[2]: 0 0 0 0 0
+# 251[3] = IRCode2[3]:{protocol:0,codeLo:0x0}
+251[3]: 0 0 0 0 0
+# 251[4] = IRCode2[4]:{protocol:0,codeLo:0x0}
+251[4]: 0 0 0 0 0
+# 251[5] = IRCode2[5]:{protocol:0,codeLo:0x0}
+251[5]: 0 0 0 0 0
+# 251[6] = IRCode2[6]:{protocol:0,codeLo:0x0}
+251[6]: 0 0 0 0 0
+# 251[7] = IRCode2[7]:{protocol:0,codeLo:0x0}
+251[7]: 0 0 0 0 0
+# 251[8] = IRCode2[8]:{protocol:0,codeLo:0x0}
+251[8]: 0 0 0 0 0
+# 251[9] = IRCode2[9]:{protocol:0,codeLo:0x0}
+251[9]: 0 0 0 0 0
+# 251[10] = IRCode2[10]:{protocol:0,codeLo:0x0}
+251[10]: 0 0 0 0 0
+# 251[11] = IRCode2[11]:{protocol:0,codeLo:0x0}
+251[11]: 0 0 0 0 0
+# 251[12] = IRCode2[12]:{protocol:0,codeLo:0x0}
+251[12]: 0 0 0 0 0
+# 251[13] = IRCode2[13]:{protocol:0,codeLo:0x0}
+251[13]: 0 0 0 0 0
+# 251[14] = IRCode2[14]:{protocol:0,codeLo:0x0}
+251[14]: 0 0 0 0 0
+# 251[15] = IRCode2[15]:{protocol:0,codeLo:0x0}
+251[15]: 0 0 0 0 0
+# 251[16] = IRCode2[16]:{protocol:0,codeLo:0x0}
+251[16]: 0 0 0 0 0
+# 252[1] = IRCode1[1]:{flags:0,keytype:0,keycode:0}
+252[1]: 0 0 0 0 0
+# 252[2] = IRCode1[2]:{flags:0,keytype:0,keycode:0}
+252[2]: 0 0 0 0 0
+# 252[3] = IRCode1[3]:{flags:0,keytype:0,keycode:0}
+252[3]: 0 0 0 0 0
+# 252[4] = IRCode1[4]:{flags:0,keytype:0,keycode:0}
+252[4]: 0 0 0 0 0
+# 252[5] = IRCode1[5]:{flags:0,keytype:0,keycode:0}
+252[5]: 0 0 0 0 0
+# 252[6] = IRCode1[6]:{flags:0,keytype:0,keycode:0}
+252[6]: 0 0 0 0 0
+# 252[7] = IRCode1[7]:{flags:0,keytype:0,keycode:0}
+252[7]: 0 0 0 0 0
+# 252[8] = IRCode1[8]:{flags:0,keytype:0,keycode:0}
+252[8]: 0 0 0 0 0
+# 252[9] = IRCode1[9]:{flags:0,keytype:0,keycode:0}
+252[9]: 0 0 0 0 0
+# 252[10] = IRCode1[10]:{flags:0,keytype:0,keycode:0}
+252[10]: 0 0 0 0 0
+# 252[11] = IRCode1[11]:{flags:0,keytype:0,keycode:0}
+252[11]: 0 0 0 0 0
+# 252[12] = IRCode1[12]:{flags:0,keytype:0,keycode:0}
+252[12]: 0 0 0 0 0
+# 252[13] = IRCode1[13]:{flags:0,keytype:0,keycode:0}
+252[13]: 0 0 0 0 0
+# 252[14] = IRCode1[14]:{flags:0,keytype:0,keycode:0}
+252[14]: 0 0 0 0 0
+# 252[15] = IRCode1[15]:{flags:0,keytype:0,keycode:0}
+252[15]: 0 0 0 0 0
+# 252[16] = IRCode1[16]:{flags:0,keytype:0,keycode:0}
+252[16]: 0 0 0 0 0
+# 253[1] = xbuttons[1]:{keytype:1,keycode:22,IRCommand:0}
+253[1]: 1 22 0 0 0
+# 253[2] = xbuttons[2]:{keytype:0,keycode:0,IRCommand:0}
+253[2]: 0 0 0 0 0
+# 253[3] = xbuttons[3]:{keytype:0,keycode:0,IRCommand:0}
+253[3]: 0 0 0 0 0
+# 253[4] = xbuttons[4]:{keytype:0,keycode:0,IRCommand:0}
+253[4]: 0 0 0 0 0
+# 253[5] = xbuttons[5]:{keytype:0,keycode:0,IRCommand:0}
+253[5]: 0 0 0 0 0
+# 253[6] = xbuttons[6]:{keytype:0,keycode:0,IRCommand:0}
+253[6]: 0 0 0 0 0
+# 253[7] = xbuttons[7]:{keytype:0,keycode:0,IRCommand:0}
+253[7]: 0 0 0 0 0
+# 253[8] = xbuttons[8]:{keytype:0,keycode:0,IRCommand:0}
+253[8]: 0 0 0 0 0
+# 253[9] = xbuttons[9]:{keytype:0,keycode:0,IRCommand:0}
+253[9]: 0 0 0 0 0
+# 253[10] = xbuttons[10]:{keytype:0,keycode:0,IRCommand:0}
+253[10]: 0 0 0 0 0
+# 253[11] = xbuttons[11]:{keytype:0,keycode:0,IRCommand:0}
+253[11]: 0 0 0 0 0
+# 253[12] = xbuttons[12]:{keytype:0,keycode:0,IRCommand:0}
+253[12]: 0 0 0 0 0
+# 253[13] = xbuttons[13]:{keytype:0,keycode:0,IRCommand:0}
+253[13]: 0 0 0 0 0
+# 253[14] = xbuttons[14]:{keytype:0,keycode:0,IRCommand:0}
+253[14]: 0 0 0 0 0
+# 253[15] = xbuttons[15]:{keytype:0,keycode:0,IRCommand:0}
+253[15]: 0 0 0 0 0
+# 253[16] = xbuttons[16]:{keytype:0,keycode:0,IRCommand:0}
+253[16]: 0 0 0 0 0
+# 253[17] = xbuttons[17]:{keytype:0,keycode:0,IRCommand:0}
+253[17]: 0 0 0 0 0
+# 253[18] = xbuttons[18]:{keytype:0,keycode:0,IRCommand:0}
+253[18]: 0 0 0 0 0
+# 253[19] = xbuttons[19]:{keytype:0,keycode:0,IRCommand:0}
+253[19]: 0 0 0 0 0
+# 253[20] = xbuttons[20]:{keytype:0,keycode:0,IRCommand:0}
+253[20]: 0 0 0 0 0
+# 253[21] = xbuttons[21]:{keytype:0,keycode:0,IRCommand:0}
+253[21]: 0 0 0 0 0
+# 253[22] = xbuttons[22]:{keytype:0,keycode:0,IRCommand:0}
+253[22]: 0 0 0 0 0
+# 253[23] = xbuttons[23]:{keytype:0,keycode:0,IRCommand:0}
+253[23]: 0 0 0 0 0
+# 253[24] = xbuttons[24]:{keytype:0,keycode:0,IRCommand:0}
+253[24]: 0 0 0 0 0
+# 253[25] = xbuttons[25]:{keytype:0,keycode:0,IRCommand:0}
+253[25]: 0 0 0 0 0
+# 253[26] = xbuttons[26]:{keytype:0,keycode:0,IRCommand:0}
+253[26]: 0 0 0 0 0
+# 253[27] = xbuttons[27]:{keytype:0,keycode:0,IRCommand:0}
+253[27]: 0 0 0 0 0
+# 253[28] = xbuttons[28]:{keytype:0,keycode:0,IRCommand:0}
+253[28]: 0 0 0 0 0
+# 253[29] = xbuttons[29]:{keytype:0,keycode:0,IRCommand:0}
+253[29]: 0 0 0 0 0
+# 253[30] = xbuttons[30]:{keytype:0,keycode:0,IRCommand:0}
+253[30]: 0 0 0 0 0
+# 253[31] = xbuttons[31]:{keytype:0,keycode:0,IRCommand:0}
+253[31]: 0 0 0 0 0
+# 253[32] = xbuttons[32]:{keytype:0,keycode:0,IRCommand:0}
+253[32]: 0 0 0 0 0
+# 253[33] = xbuttons[33]:{keytype:0,keycode:0,IRCommand:0}
+253[33]: 0 0 0 0 0
+# 253[34] = xbuttons[34]:{keytype:0,keycode:0,IRCommand:0}
+253[34]: 0 0 0 0 0
+# 253[35] = xbuttons[35]:{keytype:0,keycode:0,IRCommand:0}
+253[35]: 0 0 0 0 0
+# 253[36] = xbuttons[36]:{keytype:0,keycode:0,IRCommand:0}
+253[36]: 0 0 0 0 0
+# 253[37] = xbuttons[37]:{keytype:0,keycode:0,IRCommand:0}
+253[37]: 0 0 0 0 0
+# 253[38] = xbuttons[38]:{keytype:0,keycode:0,IRCommand:0}
+253[38]: 0 0 0 0 0
+# 253[39] = xbuttons[39]:{keytype:0,keycode:0,IRCommand:0}
+253[39]: 0 0 0 0 0
+# 253[40] = xbuttons[40]:{keytype:0,keycode:0,IRCommand:0}
+253[40]: 0 0 0 0 0
+# 253[41] = xbuttons[41]:{keytype:0,keycode:0,IRCommand:0}
+253[41]: 0 0 0 0 0
+# 253[42] = xbuttons[42]:{keytype:0,keycode:0,IRCommand:0}
+253[42]: 0 0 0 0 0
+# 253[43] = xbuttons[43]:{keytype:0,keycode:0,IRCommand:0}
+253[43]: 0 0 0 0 0
+# 253[44] = xbuttons[44]:{keytype:0,keycode:0,IRCommand:0}
+253[44]: 0 0 0 0 0
+# 253[45] = xbuttons[45]:{keytype:0,keycode:0,IRCommand:0}
+253[45]: 0 0 0 0 0
+# 253[46] = xbuttons[46]:{keytype:0,keycode:0,IRCommand:0}
+253[46]: 0 0 0 0 0
+# 253[47] = xbuttons[47]:{keytype:0,keycode:0,IRCommand:0}
+253[47]: 0 0 0 0 0
+# 253[48] = xbuttons[48]:{keytype:0,keycode:0,IRCommand:0}
+253[48]: 0 0 0 0 0
+# 254[1] = buttons[1]:{pin:"PTE30",keytype:2,keycode:30,flags:0,IRCommand:0}
+254[1]: 158 2 30 0 0
+# 254[2] = buttons[2]:{pin:"PTE29",keytype:2,keycode:31,flags:0,IRCommand:0}
+254[2]: 157 2 31 0 0
+# 254[3] = buttons[3]:{pin:"PTE23",keytype:2,keycode:34,flags:0,IRCommand:0}
+254[3]: 151 2 34 0 0
+# 254[4] = buttons[4]:{pin:"PTE22",keytype:2,keycode:33,flags:0,IRCommand:0}
+254[4]: 150 2 33 0 0
+# 254[5] = buttons[5]:{pin:"PTE21",keytype:2,keycode:35,flags:0,IRCommand:0}
+254[5]: 149 2 35 0 0
+# 254[6] = buttons[6]:{pin:"PTE20",keytype:2,keycode:40,flags:0,IRCommand:0}
+254[6]: 148 2 40 0 0
+# 254[7] = buttons[7]:{pin:"PTE5",keytype:2,keycode:41,flags:0,IRCommand:0}
+254[7]: 133 2 41 0 0
+# 254[8] = buttons[8]:{pin:"PTE4",keytype:2,keycode:20,flags:0,IRCommand:0}
+254[8]: 132 2 20 0 0
+# 254[9] = buttons[9]:{pin:"PTE3",keytype:2,keycode:225,flags:0,IRCommand:0}
+254[9]: 131 2 225 0 0
+# 254[10] = buttons[10]:{pin:"PTE2",keytype:2,keycode:229,flags:0,IRCommand:0}
+254[10]: 130 2 229 0 0
+# 254[11] = buttons[11]:{pin:"PTE1",keytype:2,keycode:224,flags:0,IRCommand:0}
+254[11]: 129 2 224 0 0
+# 254[12] = buttons[12]:{pin:"PTE0",keytype:2,keycode:228,flags:0,IRCommand:0}
+254[12]: 128 2 228 0 0
+# 254[13] = buttons[13]:{pin:"PTD7",keytype:2,keycode:23,flags:0,IRCommand:0}
+254[13]: 103 2 23 0 0
+# 254[14] = buttons[14]:{pin:"PTD6",keytype:2,keycode:74,flags:0,IRCommand:0}
+254[14]: 102 2 74 0 0
+# 254[15] = buttons[15]:{pin:"PTD5",keytype:2,keycode:44,flags:0,IRCommand:0}
+254[15]: 101 2 44 0 0
+# 254[16] = buttons[16]:{pin:"PTD4",keytype:2,keycode:77,flags:0,IRCommand:0}
+254[16]: 100 2 77 0 0
+# 254[17] = buttons[17]:{pin:"PTD3",keytype:2,keycode:36,flags:0,IRCommand:0}
+254[17]: 99 2 36 0 0
+# 254[18] = buttons[18]:{pin:"PTD2",keytype:2,keycode:37,flags:0,IRCommand:0}
+254[18]: 98 2 37 0 0
+# 254[19] = buttons[19]:{pin:"PTC16",keytype:2,keycode:38,flags:0,IRCommand:0}
+254[19]: 80 2 38 0 0
+# 254[20] = buttons[20]:{pin:"PTC7",keytype:2,keycode:39,flags:0,IRCommand:0}
+254[20]: 71 2 39 0 0
+# 254[21] = buttons[21]:{pin:"PTC17",keytype:2,keycode:46,flags:0,IRCommand:0}
+254[21]: 81 2 46 0 0
+# 254[22] = buttons[22]:{pin:"NC",keytype:2,keycode:45,flags:0,IRCommand:0}
+254[22]: 255 2 45 0 0
+# 254[23] = buttons[23]:{pin:"NC",keytype:3,keycode:233,flags:0,IRCommand:0}
+254[23]: 255 3 233 0 0
+# 254[24] = buttons[24]:{pin:"NC",keytype:3,keycode:234,flags:0,IRCommand:0}
+254[24]: 255 3 234 0 0
+# 254[25] = buttons[25]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[25]: 255 0 0 0 0
+# 254[26] = buttons[26]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[26]: 255 0 0 0 0
+# 254[27] = buttons[27]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[27]: 255 0 0 0 0
+# 254[28] = buttons[28]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[28]: 255 0 0 0 0
+# 254[29] = buttons[29]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[29]: 255 0 0 0 0
+# 254[30] = buttons[30]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[30]: 255 0 0 0 0
+# 254[31] = buttons[31]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[31]: 255 0 0 0 0
+# 254[32] = buttons[32]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[32]: 255 0 0 0 0
+# 254[33] = buttons[33]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[33]: 255 0 0 0 0
+# 254[34] = buttons[34]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[34]: 255 0 0 0 0
+# 254[35] = buttons[35]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[35]: 255 0 0 0 0
+# 254[36] = buttons[36]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[36]: 255 0 0 0 0
+# 254[37] = buttons[37]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[37]: 255 0 0 0 0
+# 254[38] = buttons[38]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[38]: 255 0 0 0 0
+# 254[39] = buttons[39]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[39]: 255 0 0 0 0
+# 254[40] = buttons[40]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[40]: 255 0 0 0 0
+# 254[41] = buttons[41]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[41]: 255 0 0 0 0
+# 254[42] = buttons[42]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[42]: 255 0 0 0 0
+# 254[43] = buttons[43]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[43]: 255 0 0 0 0
+# 254[44] = buttons[44]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[44]: 255 0 0 0 0
+# 254[45] = buttons[45]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[45]: 255 0 0 0 0
+# 254[46] = buttons[46]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[46]: 255 0 0 0 0
+# 254[47] = buttons[47]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[47]: 255 0 0 0 0
+# 254[48] = buttons[48]:{pin:"NC",keytype:0,keycode:0,flags:0,IRCommand:0}
+254[48]: 255 0 0 0 0
+# 255[1] = outputs[1]:{port:{type:5,pin:0},flags:0,flipperLogic:0}
+255[1]: 5 0 0 0 0
+# 255[2] = outputs[2]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[2]: 0 0 0 0 0
+# 255[3] = outputs[3]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[3]: 0 0 0 0 0
+# 255[4] = outputs[4]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[4]: 0 0 0 0 0
+# 255[5] = outputs[5]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[5]: 0 0 0 0 0
+# 255[6] = outputs[6]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[6]: 0 0 0 0 0
+# 255[7] = outputs[7]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[7]: 0 0 0 0 0
+# 255[8] = outputs[8]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[8]: 0 0 0 0 0
+# 255[9] = outputs[9]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[9]: 0 0 0 0 0
+# 255[10] = outputs[10]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[10]: 0 0 0 0 0
+# 255[11] = outputs[11]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[11]: 0 0 0 0 0
+# 255[12] = outputs[12]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[12]: 0 0 0 0 0
+# 255[13] = outputs[13]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[13]: 0 0 0 0 0
+# 255[14] = outputs[14]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[14]: 0 0 0 0 0
+# 255[15] = outputs[15]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[15]: 0 0 0 0 0
+# 255[16] = outputs[16]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[16]: 0 0 0 0 0
+# 255[17] = outputs[17]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[17]: 0 0 0 0 0
+# 255[18] = outputs[18]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[18]: 0 0 0 0 0
+# 255[19] = outputs[19]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[19]: 0 0 0 0 0
+# 255[20] = outputs[20]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[20]: 0 0 0 0 0
+# 255[21] = outputs[21]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[21]: 0 0 0 0 0
+# 255[22] = outputs[22]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[22]: 0 0 0 0 0
+# 255[23] = outputs[23]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[23]: 0 0 0 0 0
+# 255[24] = outputs[24]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[24]: 0 0 0 0 0
+# 255[25] = outputs[25]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[25]: 0 0 0 0 0
+# 255[26] = outputs[26]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[26]: 0 0 0 0 0
+# 255[27] = outputs[27]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[27]: 0 0 0 0 0
+# 255[28] = outputs[28]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[28]: 0 0 0 0 0
+# 255[29] = outputs[29]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[29]: 0 0 0 0 0
+# 255[30] = outputs[30]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[30]: 0 0 0 0 0
+# 255[31] = outputs[31]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[31]: 0 0 0 0 0
+# 255[32] = outputs[32]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[32]: 0 0 0 0 0
+# 255[33] = outputs[33]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[33]: 0 0 0 0 0
+# 255[34] = outputs[34]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[34]: 0 0 0 0 0
+# 255[35] = outputs[35]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[35]: 0 0 0 0 0
+# 255[36] = outputs[36]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[36]: 0 0 0 0 0
+# 255[37] = outputs[37]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[37]: 0 0 0 0 0
+# 255[38] = outputs[38]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[38]: 0 0 0 0 0
+# 255[39] = outputs[39]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[39]: 0 0 0 0 0
+# 255[40] = outputs[40]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[40]: 0 0 0 0 0
+# 255[41] = outputs[41]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[41]: 0 0 0 0 0
+# 255[42] = outputs[42]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[42]: 0 0 0 0 0
+# 255[43] = outputs[43]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[43]: 0 0 0 0 0
+# 255[44] = outputs[44]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[44]: 0 0 0 0 0
+# 255[45] = outputs[45]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[45]: 0 0 0 0 0
+# 255[46] = outputs[46]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[46]: 0 0 0 0 0
+# 255[47] = outputs[47]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[47]: 0 0 0 0 0
+# 255[48] = outputs[48]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[48]: 0 0 0 0 0
+# 255[49] = outputs[49]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[49]: 0 0 0 0 0
+# 255[50] = outputs[50]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[50]: 0 0 0 0 0
+# 255[51] = outputs[51]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[51]: 0 0 0 0 0
+# 255[52] = outputs[52]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[52]: 0 0 0 0 0
+# 255[53] = outputs[53]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[53]: 0 0 0 0 0
+# 255[54] = outputs[54]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[54]: 0 0 0 0 0
+# 255[55] = outputs[55]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[55]: 0 0 0 0 0
+# 255[56] = outputs[56]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[56]: 0 0 0 0 0
+# 255[57] = outputs[57]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[57]: 0 0 0 0 0
+# 255[58] = outputs[58]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[58]: 0 0 0 0 0
+# 255[59] = outputs[59]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[59]: 0 0 0 0 0
+# 255[60] = outputs[60]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[60]: 0 0 0 0 0
+# 255[61] = outputs[61]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[61]: 0 0 0 0 0
+# 255[62] = outputs[62]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[62]: 0 0 0 0 0
+# 255[63] = outputs[63]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[63]: 0 0 0 0 0
+# 255[64] = outputs[64]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[64]: 0 0 0 0 0
+# 255[65] = outputs[65]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[65]: 0 0 0 0 0
+# 255[66] = outputs[66]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[66]: 0 0 0 0 0
+# 255[67] = outputs[67]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[67]: 0 0 0 0 0
+# 255[68] = outputs[68]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[68]: 0 0 0 0 0
+# 255[69] = outputs[69]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[69]: 0 0 0 0 0
+# 255[70] = outputs[70]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[70]: 0 0 0 0 0
+# 255[71] = outputs[71]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[71]: 0 0 0 0 0
+# 255[72] = outputs[72]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[72]: 0 0 0 0 0
+# 255[73] = outputs[73]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[73]: 0 0 0 0 0
+# 255[74] = outputs[74]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[74]: 0 0 0 0 0
+# 255[75] = outputs[75]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[75]: 0 0 0 0 0
+# 255[76] = outputs[76]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[76]: 0 0 0 0 0
+# 255[77] = outputs[77]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[77]: 0 0 0 0 0
+# 255[78] = outputs[78]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[78]: 0 0 0 0 0
+# 255[79] = outputs[79]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[79]: 0 0 0 0 0
+# 255[80] = outputs[80]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[80]: 0 0 0 0 0
+# 255[81] = outputs[81]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[81]: 0 0 0 0 0
+# 255[82] = outputs[82]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[82]: 0 0 0 0 0
+# 255[83] = outputs[83]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[83]: 0 0 0 0 0
+# 255[84] = outputs[84]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[84]: 0 0 0 0 0
+# 255[85] = outputs[85]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[85]: 0 0 0 0 0
+# 255[86] = outputs[86]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[86]: 0 0 0 0 0
+# 255[87] = outputs[87]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[87]: 0 0 0 0 0
+# 255[88] = outputs[88]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[88]: 0 0 0 0 0
+# 255[89] = outputs[89]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[89]: 0 0 0 0 0
+# 255[90] = outputs[90]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[90]: 0 0 0 0 0
+# 255[91] = outputs[91]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[91]: 0 0 0 0 0
+# 255[92] = outputs[92]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[92]: 0 0 0 0 0
+# 255[93] = outputs[93]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[93]: 0 0 0 0 0
+# 255[94] = outputs[94]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[94]: 0 0 0 0 0
+# 255[95] = outputs[95]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[95]: 0 0 0 0 0
+# 255[96] = outputs[96]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[96]: 0 0 0 0 0
+# 255[97] = outputs[97]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[97]: 0 0 0 0 0
+# 255[98] = outputs[98]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[98]: 0 0 0 0 0
+# 255[99] = outputs[99]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[99]: 0 0 0 0 0
+# 255[100] = outputs[100]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[100]: 0 0 0 0 0
+# 255[101] = outputs[101]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[101]: 0 0 0 0 0
+# 255[102] = outputs[102]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[102]: 0 0 0 0 0
+# 255[103] = outputs[103]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[103]: 0 0 0 0 0
+# 255[104] = outputs[104]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[104]: 0 0 0 0 0
+# 255[105] = outputs[105]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[105]: 0 0 0 0 0
+# 255[106] = outputs[106]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[106]: 0 0 0 0 0
+# 255[107] = outputs[107]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[107]: 0 0 0 0 0
+# 255[108] = outputs[108]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[108]: 0 0 0 0 0
+# 255[109] = outputs[109]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[109]: 0 0 0 0 0
+# 255[110] = outputs[110]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[110]: 0 0 0 0 0
+# 255[111] = outputs[111]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[111]: 0 0 0 0 0
+# 255[112] = outputs[112]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[112]: 0 0 0 0 0
+# 255[113] = outputs[113]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[113]: 0 0 0 0 0
+# 255[114] = outputs[114]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[114]: 0 0 0 0 0
+# 255[115] = outputs[115]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[115]: 0 0 0 0 0
+# 255[116] = outputs[116]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[116]: 0 0 0 0 0
+# 255[117] = outputs[117]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[117]: 0 0 0 0 0
+# 255[118] = outputs[118]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[118]: 0 0 0 0 0
+# 255[119] = outputs[119]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[119]: 0 0 0 0 0
+# 255[120] = outputs[120]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[120]: 0 0 0 0 0
+# 255[121] = outputs[121]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[121]: 0 0 0 0 0
+# 255[122] = outputs[122]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[122]: 0 0 0 0 0
+# 255[123] = outputs[123]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[123]: 0 0 0 0 0
+# 255[124] = outputs[124]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[124]: 0 0 0 0 0
+# 255[125] = outputs[125]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[125]: 0 0 0 0 0
+# 255[126] = outputs[126]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[126]: 0 0 0 0 0
+# 255[127] = outputs[127]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[127]: 0 0 0 0 0
+# 255[128] = outputs[128]:{port:{type:0,pin:0},flags:0,flipperLogic:0}
+255[128]: 0 0 0 0 0
+###XCONFIG={"outputs":{"1":{"desc":""},"2":{"desc":""},"3":{"desc":""},"4":{"desc":""},"5":{"desc":""},"6":{"desc":""},"7":{"desc":""},"8":{"desc":""},"9":{"desc":""},"10":{"desc":""},"11":{"desc":""},"12":{"desc":""},"13":{"desc":""},"14":{"desc":""},"15":{"desc":""},"16":{"desc":""},"17":{"desc":""},"18":{"desc":""},"19":{"desc":""},"20":{"desc":""},"21":{"desc":""},"22":{"desc":""},"23":{"desc":""},"24":{"desc":""},"25":{"desc":""},"26":{"desc":""},"27":{"desc":""},"28":{"desc":""},"29":{"desc":""},"30":{"desc":""},"31":{"desc":""},"32":{"desc":""},"33":{"desc":""},"34":{"desc":""},"35":{"desc":""},"36":{"desc":""},"37":{"desc":""},"38":{"desc":""},"39":{"desc":""},"40":{"desc":""},"41":{"desc":""},"42":{"desc":""},"43":{"desc":""},"44":{"desc":""},"45":{"desc":""},"46":{"desc":""},"47":{"desc":""},"48":{"desc":""},"49":{"desc":""},"50":{"desc":""},"51":{"desc":""},"52":{"desc":""},"53":{"desc":""},"54":{"desc":""},"55":{"desc":""},"56":{"desc":""},"57":{"desc":""},"58":{"desc":""},"59":{"desc":""},"60":{"desc":""},"61":{"desc":""},"62":{"desc":""},"63":{"desc":""},"64":{"desc":""},"65":{"desc":""},"66":{"desc":""},"67":{"desc":""},"68":{"desc":""},"69":{"desc":""},"70":{"desc":""},"71":{"desc":""},"72":{"desc":""},"73":{"desc":""},"74":{"desc":""},"75":{"desc":""},"76":{"desc":""},"77":{"desc":""},"78":{"desc":""},"79":{"desc":""},"80":{"desc":""},"81":{"desc":""},"82":{"desc":""},"83":{"desc":""},"84":{"desc":""},"85":{"desc":""},"86":{"desc":""},"87":{"desc":""},"88":{"desc":""},"89":{"desc":""},"90":{"desc":""},"91":{"desc":""},"92":{"desc":""},"93":{"desc":""},"94":{"desc":""},"95":{"desc":""},"96":{"desc":""},"97":{"desc":""},"98":{"desc":""},"99":{"desc":""},"100":{"desc":""},"101":{"desc":""},"102":{"desc":""},"103":{"desc":""},"104":{"desc":""},"105":{"desc":""},"106":{"desc":""},"107":{"desc":""},"108":{"desc":""},"109":{"desc":""},"110":{"desc":""},"111":{"desc":""},"112":{"desc":""},"113":{"desc":""},"114":{"desc":""},"115":{"desc":""},"116":{"desc":""},"117":{"desc":""},"118":{"desc":""},"119":{"desc":""},"120":{"desc":""},"121":{"desc":""},"122":{"desc":""},"123":{"desc":""},"124":{"desc":""},"125":{"desc":""},"126":{"desc":""},"127":{"desc":""},"128":{"desc":""}},"IRCommand":{"1":{"desc":""},"2":{"desc":""},"3":{"desc":""},"4":{"desc":""},"5":{"desc":""},"6":{"desc":""},"7":{"desc":""},"8":{"desc":""},"9":{"desc":""},"10":{"desc":""},"11":{"desc":""},"12":{"desc":""},"13":{"desc":""},"14":{"desc":""},"15":{"desc":""},"16":{"desc":""}}}
